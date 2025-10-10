@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1
+# Laporan Praktikum Minggu 1 
 Topik: "Pengenalan Paradigma dan Setup Proyek"
 
 ## Identitas
@@ -30,12 +30,13 @@ Dalam konteks Agri-POS, OOP membantu memodelkan entitas nyata seperti Produk, Tr
 ---
 
 ## Langkah Praktikum
-a. Menginstall JDK versi terbaru dan cek instalasinya menggunakan perintah java -version
-b. Membuat file program HelloProcedural.java, HelloOOP.java, dan HelloFunctional.java.
-c. Menulis kode sesuai paradigma yang diminta.
-d. Melakukan eksekusi program
-e. Mengecek hasil eksekusi di terminal.
-f. Membuat commit ke repository GitHub dengan pesan commit "week1-setup-hello-pos"
+1. Setup Project
+
+   Pastikan sudah menginstall JDK (Java Development Kit), IDE (misal: IntelliJ IDEA, VS Code, NetBeans), Git, PostgreSQL, dan JavaFX di      komputer. Buat folder project oop-pos-. Inisialisasi repositori Git. Buat struktur awal src/main/java/com/upb/agripos/. Pastikan semua    tools dapat berjalan (uji dengan membuat dan menjalankan program Java sederhana). Program Sederhana dalam 3 Paradigma
+
+2. Prosedural: program untuk menghitung total harga dua produk. OOP: class Produk dengan atribut nama dan harga, buat minimal tiga objek,    lalu hitung total. Fungsional: gunakan Stream atau lambda untuk menghitung total harga dari minimal tiga objek. Commit dan Push
+
+3. Commit dan Push Commit dengan pesan: week1-setup-hello-pos.
 ---
 
 ## Kode Program
@@ -50,6 +51,7 @@ public class HelloProcedural {
         System.out.println("Hello World, I am " + name + " - " + nim);
     }
 }
+
 
 2. OOP (Object-Oriented Programming)
 
@@ -73,6 +75,7 @@ public class HelloOOP {
         s.introduce();
     }
 }
+
 
 3. Fungsional
 
