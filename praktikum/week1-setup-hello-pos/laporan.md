@@ -42,7 +42,7 @@ Dalam konteks Agri-POS, OOP membantu memodelkan entitas nyata seperti Produk, Tr
 ## Kode Program
 1. Prosedural
 
-// HelloProcedural
+// HelloProcedural.java
 public class HelloProcedural {
     public static void main(String[] args) {
         String nim = "240202894";
@@ -53,12 +53,14 @@ public class HelloProcedural {
 }
 
 
+
 2. OOP (Object-Oriented Programming)
 
-// HelloOOP
+// HelloOOP.java
 class Student {
     String nim;
     String name;
+
     Student(String nim, String name) {
         this.nim = nim;
         this.name = name;
@@ -79,7 +81,7 @@ public class HelloOOP {
 
 3. Fungsional
 
-// HelloFunctional
+// HelloFunctional.java
 import java.util.function.BiConsumer;
 
 public class HelloFunctional {
