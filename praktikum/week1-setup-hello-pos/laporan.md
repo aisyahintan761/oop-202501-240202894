@@ -97,6 +97,16 @@ public class HelloFunctional {
 ## Hasil Eksekusi
 Sertakan screenshot hasil eksekusi program.  
 
+<img width="1366" height="768" alt="HelloOOP java" src="https://github.com/user-attachments/assets/16fb5c95-8b1e-4132-8204-e9235cf1ee60" />
+
+
+<img width="1366" height="768" alt="HelloFunctional java" src="https://github.com/user-attachments/assets/5ce8de07-5206-481c-b1c8-76910e65f3cb" />
+
+
+<img width="1366" height="768" alt="HelloProcedural java" src="https://github.com/user-attachments/assets/234748c9-d3df-4e1d-8634-cc883456bc23" />
+
+
+
 
 ---
 
