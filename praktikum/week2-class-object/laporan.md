@@ -1,5 +1,5 @@
 # Laporan Praktikum Minggu 2
-Topik:Class dan Object (Produk Pertanian)
+Topik: Class dan Object (Produk Pertanian)
 ## Identitas
 - Nama  : Aisyah Intan Nurjannah
 - NIM   : 240202894
@@ -24,21 +24,21 @@ Dalam konteks Agri-POS, produk pertanian seperti benih, pupuk, dan alat pertania
 ---
 
 ## Langkah Praktikum
-1.Membuat Class Produk
-
-  .Buat file Produk.java pada package model.
-  .Tambahkan atribut: kode, nama, harga, dan stok.
-  .Gunakan enkapsulasi dengan menjadikan atribut bersifat private dan membuat getter serta setter untuk masing-masing atribut.
-2.Membuat Class CreditBy
-
+1. Membuat Class Produk
+   
+  Buat file Produk.java pada package model.
+  Tambahkan atribut: kode, nama, harga, dan stok.
+  Gunakan enkapsulasi dengan menjadikan atribut bersifat private dan membuat getter serta setter untuk masing-masing atribut.
+  
+2. Membuat Class CreditBy
   .Buat file CreditBy.java pada package util.
   .Isi class dengan method statis untuk menampilkan identitas mahasiswa di akhir output: credit by: <NIM> - <Nama>.
-3.Membuat Objek Produk dan Menampilkan Credit
+  
+3. Membuat Objek Produk dan Menampilkan Credit
+  Buat file MainProduk.java. Instansiasi minimal tiga objek produk, misalnya "Benih Padi", "Pupuk Urea", dan satu produk alat pertanian.     Tampilkan informasi produk melalui method getter. Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas.
 
-Buat file MainProduk.java. Instansiasi minimal tiga objek produk, misalnya "Benih Padi", "Pupuk Urea", dan satu produk alat pertanian. Tampilkan informasi produk melalui method getter. Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas.
-4.Commit dan Push
-
-Commit dengan pesan: week2-class-object.
+4 .Commit dan Push
+   Commit dengan pesan: week2-class-object.
 
 ---
 
