@@ -24,22 +24,22 @@ Dalam konteks Agri-POS, produk pertanian seperti benih, pupuk, dan alat pertania
 ---
 
 ## Langkah Praktikum
-1. Membuat Class Produk
-   
-  Buat file Produk.java pada package model.
-  Tambahkan atribut: kode, nama, harga, dan stok.
-  Gunakan enkapsulasi dengan menjadikan atribut bersifat private dan membuat getter serta setter untuk masing-masing atribut.
-  
-2. Membuat Class CreditBy
-  .Buat file CreditBy.java pada package util.
-  .Isi class dengan method statis untuk menampilkan identitas mahasiswa di akhir output: credit by: <NIM> - <Nama>.
-  
-3. Membuat Objek Produk dan Menampilkan Credit
-  Buat file MainProduk.java. Instansiasi minimal tiga objek produk, misalnya "Benih Padi", "Pupuk Urea", dan satu produk alat pertanian.     Tampilkan informasi produk melalui method getter. Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas.
+1. Buat class produk
+   Buat file Produk.java pada package model. Tambahkan atribut: kode, nama, harga, dan stok. Gunakan enkapsulasi dengan menjadikan atribut bersifat private. Buat getter dan setter untuk masing-masing atribut.
+2. Buat Class CreditBy
+   Buat file CreditBy.java pada package util. 
+  Tambahkan method statis untuk menampilkan identitas mahasiswa dengan format:  
+   credit by: <NIM> - <Nama>.
 
-4 .Commit dan Push
+3. Buat Objek Produk dan Menampilkan Credit
+   Buat file MainProduk.java.
+Instansiasi minimal tiga objek produk: Benih Padi, Pupuk Urea, dan satu produk alat pertanian.
+Tampilkan informasi produk melalui method getter.
+Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas mahasiswa.
+
+4. Commit dan Push
    Commit dengan pesan: week2-class-object.
-
+   
 ---
 
 ## Kode Program
