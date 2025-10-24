@@ -86,4 +86,4 @@ Dalam pemrograman berbasis objek, class berfungsi sebagai cetak biru yang menent
 
 3. Bagaimana cara class Produk mendukung pengembangan aplikasi POS yang lebih kompleks?  
    Class Produk memungkinkan setiap item pertanian direpresentasikan sebagai objek dengan struktur yang terstandar. Hal ini mempermudah integrasi fitur seperti manajemen stok, perhitungan harga otomatis, diskon, dan laporan penjualan, sehingga aplikasi POS dapat dikembangkan secara modular dan scalable.
-   # Akhir Lapporan
+  
