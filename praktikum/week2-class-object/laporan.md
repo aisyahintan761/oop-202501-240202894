@@ -60,11 +60,14 @@ System.out.println(p1.getNama());
 ---
 
 ## Analisis
-(
--Cara kerja kode: Program membuat tiga objek dari class Produk yang masing-masing memiliki atribut dan method. Informasi produk ditampilkan melalui method tampilkanInfo().
+Cara kerja kode:
+Program membuat tiga objek dari class Produk yang masing-masing memiliki atribut dan method. Informasi produk ditampilkan melalui method tampilkanInfo().
 Di akhir program, method CreditBy.print() dipanggil untuk menampilkan identitas pembuat program.
--Perbedaan dengan minggu sebelumnya: Minggu sebelumnya menggunakan pendekatan prosedural, sedangkan minggu ini menggunakan pendekatan Object-Oriented Programming (OOP) dengan class, object, atribut, dan method yang lebih terstruktur.
--Kendala dan solusi: Awalnya terjadi error karena atribut tidak dapat diakses langsung dari class lain. Solusinya adalah menggunakan getter dan setter agar tetap sesuai dengan prinsip enkapsulasi.
+
+Perbedaan dengan minggu sebelumnya:
+Minggu sebelumnya menggunakan pendekatan prosedural, sedangkan minggu ini menggunakan pendekatan Object-Oriented Programming (OOP) dengan class, object, atribut, dan method yang lebih terstruktur.
+
+
 ---
 
 ## Kesimpulan
