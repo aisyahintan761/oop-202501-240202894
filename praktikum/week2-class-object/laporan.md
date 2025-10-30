@@ -106,10 +106,7 @@ public class Produk {
         return "Produk [Kode=" + kode + ", Nama=" + nama + ", Harga=" + harga + ", Stok=" + stok + "]";
     }
 }
-```
-
-2.CreditBy.java
-```CreditBy.java
+CreditBy.java
 package main.java.com.upb.agripos.util;
 
 
@@ -118,10 +115,7 @@ public class CreditBy {
         System.out.println("\ncredit by: " + nim + " - " + nama);
     }
 }
-```
-3.MainProduk.java
-
-```MainProduk.java
+MainProduk.java
 package main.java.com.upb.agripos;
 
 import main.java.com.upb.agripos.model.Produk;
@@ -141,14 +135,12 @@ public class MainProduk {
         CreditBy.print("<240202894>", "<Aisyah>");
     }
 }
-```
-
-```
-
 
 
 ## Hasil Eksekusi
-
+(Sertakan screenshot hasil eksekusi program.  
+![Screenshot hasil](screenshots/ss_mainproduk.png)
+)
 
 
 ## Analisis
