@@ -44,7 +44,7 @@ Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas mahasis
 ---
 
 ## Kode Program
-
+1.Produk.java
 ```java
 package main.java.com.upb.agripos.model;
 
@@ -105,7 +105,9 @@ public class Produk {
         return "Produk [Kode=" + kode + ", Nama=" + nama + ", Harga=" + harga + ", Stok=" + stok + "]";
     }
 }
-CreditBy.java
+
+
+2.CreditBy.java
 package main.java.com.upb.agripos.util;
 
 
@@ -114,7 +116,8 @@ public class CreditBy {
         System.out.println("\ncredit by: " + nim + " - " + nama);
     }
 }
-MainProduk.java
+
+3.MainProduk.java
 package main.java.com.upb.agripos;
 
 import main.java.com.upb.agripos.model.Produk;
