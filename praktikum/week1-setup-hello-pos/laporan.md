@@ -152,3 +152,4 @@ Dengan mencoba semua, aku bisa lihat kelebihan dan kekurangan masing-masing. Set
 
 5. Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?
    Jawaban: Karena di paradigma fungsional, kita bisa pakai fungsi seperti map(), filter(), dan reduce() yang langsung bisa dipakai ulang tanpa harus bikin loop panjang. Jadi kode lebih singkat dan gampang dibaca.
+   

@@ -44,7 +44,6 @@ Panggil CreditBy.print("", "") di akhir main untuk menampilkan identitas mahasis
 ---
 
 ## Kode Program
-1.Produk.java
 
 ```java
 package main.java.com.upb.agripos.model;
@@ -138,7 +137,8 @@ public class MainProduk {
 
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
+(
+(Sertakan screenshot hasil eksekusi program)  
 ![Screenshot hasil](screenshots/ss_mainproduk.png)
 )
 
@@ -158,13 +158,10 @@ Minggu sebelumnya menggunakan pendekatan prosedural, sedangkan minggu ini menggu
 ## Kesimpulan
 ---
 Dalam pemrograman berbasis objek, class berfungsi sebagai cetak biru yang menentukan atribut dan perilaku objek, sementara objek adalah instansiasi nyata dari class tersebut. Konsep enkapsulasi diterapkan melalui deklarasi atribut sebagai private dan penggunaan getter serta setter untuk mengontrol akses terhadap data, sehingga integritas informasi tetap terjaga dan sistem menjadi lebih aman dari manipulasi sembarangan. Dengan menerapkan struktur OOP pada aplikasi seperti Agri-POS, entitas nyata seperti Produk pertanian dapat dimodelkan secara terstruktur dan terstandarisasi, memungkinkan pengembangan fitur lanjutan seperti manajemen inventori, transaksi terintegrasi, hingga sistem laporan otomatis. Hal ini membuktikan bahwa penerapan class, enkapsulasi, dan pengelolaan atribut secara tepat tidak hanya meningkatkan efisiensi pengembangan perangkat lunak, tetapi juga menjamin skalabilitas dan kualitas sistem dalam jangka panjang.
----
-
-
 
 
 ## Quiz
----
+
 1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?
   Atribut sebaiknya dideklarasikan sebagai private untuk menjaga keamanan dan konsistensi data. Dengan membatasi akses langsung dari luar class, atribut terlindungi dari manipulasi yang tidak valid atau tidak sesuai dengan aturan logika sistem.  
 
@@ -173,5 +170,3 @@ Dalam pemrograman berbasis objek, class berfungsi sebagai cetak biru yang menent
 
 3. Bagaimana cara class Produk mendukung pengembangan aplikasi POS yang lebih kompleks?  
    Class Produk memungkinkan setiap item pertanian direpresentasikan sebagai objek dengan struktur yang terstandar. Hal ini mempermudah integrasi fitur seperti manajemen stok, perhitungan harga otomatis, diskon, dan laporan penjualan, sehingga aplikasi POS dapat dikembangkan secara modular dan scalable.
----
-
